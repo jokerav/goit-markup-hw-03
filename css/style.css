@@ -16,6 +16,29 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 
  */
+/* Сброс стилей по тегу */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
 /* CSS переменные */
 :root {
   --background-primary: #ffffff;
@@ -38,6 +61,13 @@ body {
 /* "утилита" для сброса маркеров со списков */
 .list {
   list-style: none;
+}
+/* вспомогательній контейнер */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 /* Заголовки */
 h1,
@@ -62,9 +92,26 @@ h5 {
 .white span {
   color: var(--background-primary);
 }
+
 /* панель навигации */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+}
 .menu-links {
   display: flex;
+  margin-left: 93px;
+}
+/* внешний отступ всем кроме последнего */
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .menu-link {
   color: var(--secondary-text-color);
@@ -72,16 +119,12 @@ h5 {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-right: 50px;
-}
-.menu-link:last-child {
-  margin-right: 0;
 }
 
 .menu-link:hover,
 .menu-link:focus,
-.contakt-link:hover,
-.contakt-link:focus,
+.contact-link:hover,
+.contact-link:focus,
 .footer-link:focus,
 .footer-link:hover {
   color: var(--accent);
@@ -93,7 +136,15 @@ h5 {
 /* контакты */
 /* .contacts {
 } */
-.contakt-link {
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
