@@ -71,6 +71,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Заголовки */
 h1,
 h2,
@@ -78,6 +82,10 @@ h3,
 h4,
 h5 {
   color: var(--secondary-text-color);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Логотип */
 .logo {
