@@ -280,11 +280,17 @@ h5 {
 /* адрес футере */
 .footer {
   background-color: var(--background-hero);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-li {
+  margin-top: 9px;
 }
 .footer-adress {
   color: var(--background-primary);
   font-style: normal;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 .footer-link {
   color: var(--background-light-80);
