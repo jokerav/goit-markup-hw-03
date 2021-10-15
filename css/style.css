@@ -69,8 +69,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 /* Заголовки */
 h1,
@@ -242,18 +241,32 @@ h5 {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
+/* секция Наша команда */
 .team {
   background-color: var(--accent-secondary);
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.team-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  background-color: var(--background-primary);
 }
 .team-item-title {
   line-height: 1.1875;
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .team-position {
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 /* адрес футере */
