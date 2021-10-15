@@ -301,6 +301,11 @@ h5 {
 /* Портфолио */
 
 /* кнопки-фильтры в портфолио */
+.portfolio-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .portfolio-btn {
   font-family: 'Roboto';
   width: 130px;
