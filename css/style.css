@@ -71,10 +71,9 @@ body {
 }
 /* вспомогательній контейнер */
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  width: 100%;
 }
 .section {
   padding-top: 94px;
@@ -110,8 +109,6 @@ h5 {
 
 /* панель навигации */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--header-bottom-border);
 }
 .header-container {
@@ -128,6 +125,11 @@ h5 {
 /* внешний отступ всем кроме последнего */
 .menu-item:not(:last-child) {
   margin-right: 50px;
+}
+.header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .menu-link {
   color: var(--secondary-text-color);
