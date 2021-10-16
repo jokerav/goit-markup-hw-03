@@ -330,6 +330,16 @@ h5 {
 }
 
 /* Заголовки карточек в портфолио */
+.exemples-geometry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -30px;
+}
+.exemples-item-geometry {
+  flex-basis: 100%/3 - 30px;
+  margin-left: 30px;
+}
 .exemples-title {
   font-weight: 700;
   font-size: 18px;
