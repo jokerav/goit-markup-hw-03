@@ -83,7 +83,6 @@ h4,
 h5 {
   color: var(--secondary-text-color);
 }
-}
 /* Логотип */
 .logo {
   color: var(--accent);
@@ -260,6 +259,7 @@ h5 {
   margin-left: 30px;
   background-color: var(--background-primary);
 }
+
 .team-item-title {
   line-height: 1.1875;
   font-weight: 500;
@@ -321,7 +321,7 @@ h5 {
   background-color: var(--accent);
   color: var(--background-primary);
 }
-.portfolio-btn:not(:last-child){
+.btn-item:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-btn:hover,
