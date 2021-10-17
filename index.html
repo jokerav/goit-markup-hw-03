@@ -18,7 +18,7 @@
   <header class="header">
     <div class="container header-container">
       <!--логотип фирмы-->
-      <a href="./index.html" class="logo black">Web<span>Studio</span></a>
+      <a href="./index.html" class="logo black header-logo">Web<span>Studio</span></a>
       <nav class="nav-bar">
         <!--страницы в шапке-->
         <ul class="menu-links list">
@@ -40,8 +40,10 @@
     <!--контейнер для основного содержимого-->
     <!--секция "герой"-->
     <section class="hero">
-      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-      <button type="button" class="hero-btn">Заказать услугу</button>
+      <div class="container">
+        <h1 class="hero-title hero-container">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-btn">Заказать услугу</button>
+      </div>
     </section>
     <!--секция особенности-->
 
@@ -75,7 +77,7 @@
 
     </section>
     <!--секция чем занимаемся-->
-    <section class="what-are-we-doing container section">
+    <section class="what-are-we-doing section">
       <div class="container">
         <h2 class="what-are-we-doing-title">Чем мы занимаемся</h2>
         <ul class="dooing-list list">
@@ -97,32 +99,24 @@
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img src="images/team_member_1.jpg" alt="team_member_1" width="270" />
-            <div class="position-text">
-              <h3 class="team-item-title">Игорь Демьяненко</h3>
-              <p class="team-position">Product Designer</p>
-            </div>
+            <img class="team-img" src="images/team_member_1.jpg" alt="team_member_1" width="270" />
+            <h3 class="team-item-title">Игорь Демьяненко</h3>
+            <p class="team-position">Product Designer</p>
           </li>
           <li class="team-item">
-            <img src="images/team_member_2.jpg" alt="team_member_2" width="270" />
-            <div class="position-text">
-              <h3 class="team-item-title">Ольга Репина</h3>
-              <p class="team-position">Frontend Developer</p>
-            </div>
+            <img class="team-img" src="images/team_member_2.jpg" alt="team_member_2" width="270" />
+            <h3 class="team-item-title">Ольга Репина</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <li class="team-item">
-            <img src="images/team_member_3.jpg" alt="team_member_3" width="270" />
-            <div class="position-text">
-              <h3 class="team-item-title">Николай Тарасов</h3>
-              <p class="team-position">Marketing</p>
-            </div>
+            <img class="team-img" src="images/team_member_3.jpg" alt="team_member_3" width="270" />
+            <h3 class="team-item-title">Николай Тарасов</h3>
+            <p class="team-position">Marketing</p>
           </li>
           <li class="team-item">
-            <img src="images/team_member_4.jpg" alt="team_member_4" width="270" />
-            <div class="position-text">
-              <h3 class="team-item-title">Михаил Ермаков</h3>
-              <p class="team-position">UI Designer</p>
-            </div>
+            <img class="team-img" src="images/team_member_4.jpg" alt="team_member_4" width="270" />
+            <h3 class="team-item-title">Михаил Ермаков</h3>
+            <p class="team-position">UI Designer</p>
           </li>
         </ul>
       </div>
@@ -130,12 +124,12 @@
   </main>
   <footer class="footer">
     <div class="container">
-      <a href="#" class="logo white">Web<span>Studio</span></a>
+      <a href="#" class="logo white footer-logo">Web<span>Studio</span></a>
       <address>
         <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
         <ul class="list">
-          <li class="footer-li"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
-          <li class="footer-li"><a href="tel:+380960000000" class="footer-link">+38 096 000 00 00</a></li>
+          <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+          <li class="footer-item"><a href="tel:+380960000000" class="footer-link">+38 096 000 00 00</a></li>
         </ul>
       </address>
     </div>

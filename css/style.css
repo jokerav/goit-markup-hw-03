@@ -102,14 +102,14 @@ h5 {
 .white span {
   color: var(--background-primary);
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* панель навигации */
 .header {
   border-bottom: 1px solid var(--header-bottom-border);
+}
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-container {
   display: flex;
@@ -176,7 +176,12 @@ h5 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
+.hero-container {
+  width: 696px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .hero-title {
   color: var(--background-primary);
   font-weight: 900;
@@ -184,7 +189,6 @@ h5 {
   line-height: 1.46;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 30px;
 }
 .hero-btn {
   display: block;
@@ -224,7 +228,7 @@ h5 {
   font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .feachers-text {
@@ -240,7 +244,7 @@ h5 {
   font-weight: bold;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 /* ----------секция чем занимаемся---------- */
 .dooing-list {
@@ -270,36 +274,43 @@ h5 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.team-img {
+  margin-bottom: 30px;
+}
 .team-item-title {
   line-height: 1.1875;
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-position {
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 30px;
 }
-.position-text {
+/* .position-text {
   padding-top: 30px;
   padding-bottom: 30px;
-}
+} */
 /* адрес футере */
 .footer {
   background-color: var(--background-hero);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-li {
-  margin-top: 9px;
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-adress {
   color: var(--background-primary);
   font-style: normal;
   letter-spacing: 0.03em;
-  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .footer-link {
   color: var(--background-light-80);
